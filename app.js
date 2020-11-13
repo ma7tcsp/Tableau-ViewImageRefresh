@@ -8,8 +8,8 @@ Stream = require('stream').Transform;
 
 
 
-//test URL is http://localhost:3000/test?vn=Energy at Ruben Fixed&to=1
-//            http://localhost:3000/test?vn=Eat Out to Help Out&to=5
+//test URL is http://localhost:3000/test?vn=My View 1 Fixed Width&to=1
+//            http://localhost:3000/test?vn=My View 2&to=5
 
 app.get('/test', async function (req, res) {
   //auth to the tableau server
